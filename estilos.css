@@ -1,0 +1,24 @@
+h1 {
+    background-color: #e27d60;
+    margin: 0px; /*Margin sirve para marcar un margen en la página para una linea de texto. Lo tengo en 0px , por lo que es como no tenerlo. */
+    padding: 1%; /*Padding sirve para poner un margen más gordo a la zona. Esto hace que el borde del color de fondo no esté pegado al texto. */
+    border-radius: 15px;
+    width: 450px;
+    color: #a35b45;
+       
+    
+  }
+ body {
+  background-color: #85dcb8;
+  
+ }
+.TextoNormal {
+    font-size: 20px;
+    color:  white;
+ }
+.FondoTablaCV {
+    background-color: #629694;
+    border: black 3px solid;
+    margin: -0.58%;
+
+}
