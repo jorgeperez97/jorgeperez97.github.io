@@ -31,9 +31,45 @@ h1 {
 }
 .TextoTablaCV2 {
     margin-left: 10%; 
+    text-align: justify;
+}
+td {
+    padding: 5%;
 }
 
+.FotoCV {
+    padding-bottom: 0%;
+}
+.NombreCV {
+    font-size: xx-large;
+    padding: 0%;
+}
 
+.Celda3Tabla1 {
+    padding-top: 0%;
+    font-size: larger;
+
+}
+.CeldaContacto {
+    padding: 0%;
+}
+.CeldaContactoIconos {
+    padding-top:  1%;
+}
+.CeldaIdiomas {
+    border: 5px black solid ;
+    
+    margin: 0px auto;
+}
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     } 
+
+p {
+    column-count: 2;
+    text-align: justify;
+    
+}
+.Ultimafila {
+    padding: 5.5px;
+}
