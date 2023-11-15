@@ -46,6 +46,7 @@ td {
     padding: 0%;
 }
 
+
 .Celda3Tabla1 {
     padding-top: 0%;
     font-size: larger;
@@ -61,11 +62,43 @@ td {
     font-size: large;
 }
 .CeldaIdiomas {
-    padding-bottom: 0%;
+    padding-bottom: 5%;
 }
 .CeldaMarcas {
     padding-top: 0%;
-    padding-bottom: 243px;
+    padding-bottom: 5%;
+}
+
+.Subtitulo {
+    
+    font-size: xx-large;
+    padding-bottom: 0%;
+}
+.TextoNombreEmpresa {
+    font-size: large;
+    padding-bottom: 0%; 
+}
+.TituloPuesto {
+    font-size: x-large;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.TextoSubtituloCV {
+    padding-top: 1%;
+    padding-bottom: 0%;
+}
+.SubtituloFormacion {
+    padding-top: 2%;
+    font-size: xx-large;
+    padding-bottom: 0%;
+}
+
+.TextoNombreFormacion {
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.TextoFormacion {
+    padding-top: 0%;
 }
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
@@ -77,5 +110,5 @@ p {
     
 }
 .Ultimafila {
-    padding: 5.5px;
+    padding-bottom: 143px;
 }
