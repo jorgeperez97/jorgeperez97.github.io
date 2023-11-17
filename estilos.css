@@ -58,6 +58,7 @@ h1 {
 .NombreCV {
     font-size: xx-large;
     padding: 0%;
+    
 }
 
 
@@ -76,34 +77,34 @@ h1 {
     font-size: large;
 }
 .CeldaIdiomas {
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 .CeldaMarcas {
     padding-top: 0%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 
 .Subtitulo {
-    
-    font-size: xx-large;
-    padding-bottom: 0%;
+    font-size: 300%;
+    padding: 0%;
     background-color: wheat;
     border: black 3px solid;
-    border-left: none;
     border-collapse: collapse;
-    
     border-bottom: none;
+    border-left: none;
+    padding-left: 1%;
 }
 .TextoNombreEmpresa {
     
     padding-bottom: 0%;
-    padding-top: 0%;
+    padding-top: 2%;
     background-color: wheat;
-    
+    border-right: black 3px solid;
     border-left: none;
     border-collapse: collapse;
     border-top: none;
     border-bottom: none;
+    padding-left: 1%;
 }
 .TituloPuesto {
     font-size: x-large;
@@ -111,20 +112,22 @@ h1 {
     padding-bottom: 0%;
     background-color: wheat;
     border: black 3px solid;
-     border-left: none;
+    border-left: none;
     border-collapse: collapse;
     border-top: none;
     border-bottom: none;
+    padding-left: 1%;
 }
 .TextoSubtituloCV {
     padding-top: 1%;
     padding-bottom: 0%;
     background-color: wheat;
     border: black 3px solid;
-     border-left: none;
+    border-left: none;
     border-collapse: collapse;
     border-top: none;
     border-bottom: none;
+    padding-left: 1%;
 }
 .SubtituloFormacion {
     padding-top: 2%;
@@ -136,17 +139,19 @@ h1 {
     border-collapse: collapse;
     border-top: none;
     border-bottom: none;
+    padding-left: 1%;
 }
 
 .TextoNombreFormacion {
-    padding-top: 0%;
-    padding-bottom: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-color: wheat;
     border: black 3px solid;
      border-left: none;
     border-collapse: collapse;
     border-top: none;
     border-bottom: none;
+    padding-left: 1%;
 }
 .TextoFormacion {
     padding-top: 0%;
@@ -156,6 +161,25 @@ h1 {
     border-collapse: collapse;
     border-top: none;
     border-bottom: none;
+    padding-left: 1%;
+}
+
+.Ultimafila {
+    padding-bottom: 5%;
+    border-bottom: black 3px solid;
+}
+.Ultimafila2 {
+    padding-bottom: 5%;
+    background-color: wheat;
+    border-right:black 3px solid;
+    border-bottom: black 3px solid;
+}
+.VideoCV {
+    float: right;
+    position: sticky;
+    display: inline;
+    padding-right: 10%;
+    padding-top: 10%;
 }
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
@@ -166,6 +190,4 @@ p {
     text-align: justify;
     
 }
-.Ultimafila {
-    padding-bottom: 143px;
-}
+
