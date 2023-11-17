@@ -10,6 +10,28 @@ h1 {
     
     
   }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
  body {
   background-color: #85dcb8;
   
@@ -31,20 +53,10 @@ h1 {
     border-collapse: collapse;
     border-top: none;
     border-bottom: none;
-    
+    float:left;
+    padding-left: 3px;
 }
-.TablaCV2 {
-    background-color: wheat;
-    border: black 3px solid;
-     border-left: none;
-    border-collapse: collapse;
-    border-top: none;
-    border-bottom: none;
-}
-.TextoTablaCV2 {
-    margin-left: 10%; 
-    text-align: justify;
-}
+
 .TopeTabla {
     border-top: black 3px solid;
 }
@@ -175,11 +187,10 @@ h1 {
     border-bottom: black 3px solid;
 }
 .VideoCV {
-    float: right;
-    position: sticky;
-    display: inline;
-    padding-right: 10px;
-    padding-top: 150px;
+   position: static;
+   right: 20px;
+   padding-left: 3px;
+   
 }
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
