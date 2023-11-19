@@ -13,17 +13,6 @@
     font-size: xx-large;
  }
 
-h1 {
-    
-    background-color: #e27d60;
-    margin: 300px; /*Margin sirve para marcar un margen en la página para una linea de texto. Lo tengo en 0px , por lo que es como no tenerlo. */
-    padding: 1%; /*Padding sirve para poner un margen más gordo a la zona. Esto hace que el borde del color de fondo no esté pegado al texto. */
-    border-radius: 15px;
-    width: 450px;
-    color: #a35b45;
-    margin-top: 1%;
-  }
-
 
 .TextoNormal {
     font-size: 20px;
@@ -45,7 +34,7 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: hidden;   /* Sirve para recortar el contenido que se salga de la pantalla para que coincida.*/
     background-color: #333;
   }
   
@@ -64,41 +53,106 @@ nav {
     background-color: #111;
   }
   
-  .sidebar {
+  .menulateral {
     background-color:  #333;
     color: white;
     float: left;
-    height: 500px;
+    height: 100vh;  /* No puedo usar un porcentaje porque no funciona correctamente. */ 
     margin-top: 5px;
     width: 15%;
-  }
-  
-  .sidebar div {
-    padding: 10px;
-  }
-  
-  section.courses {
-    float: left;
-    margin-left: 5%;
-    width: 80%;
+   
   }
 
-  .course {
-    border: 1px solid black;
-    border-radius: 10px;
-    font-size: 0.8em;
-    float: left;
+  .menulateral a {
+    color: white;
     padding: 10px;
-    margin-top: 30px;
+    padding-left: 1%;
+  }
+
+  .menulateral a:hover {
+    background-color: #111;
+  }
+  
+  .menulateral div {   /* Esta parte con "div" hace referencia a los "divs" que tengo dentro del menu lateral. */
+    padding: 10px;
+  }
+  
+
+
+.container {
+  margin: 0% auto;
+  
+}
+
+section.columnas {
+  float: left;
+  margin-left: 1%;
+  width: 80%;
+}
+
+.columna {
+    border: 3px solid black;
+    border-radius: 5%;
+    font-size: 20px;
+    float: left;
+    padding: 1%;
+    margin-top: 1%;
     text-align: center;
-    width: 33%;
-  }
-  .container {
-    margin: 20px auto;
-    width: 100%;
+    width: 24%;
+    background-color: #37dd98;
+    margin-left: 0.5%;
   }
   
+.columna2 {
+  border: 3px solid black;
+  background-color: wheat;
+  border-radius: 5%;
+  font-size: 20px;
+  float: left;
+  padding: 2%;
+  margin-top: 1%;
+  margin-left: 10px;
+  text-align: center;
+  width: 20%;
+ 
+}
+
+.columna img {
+  width: 75%;
+}
+.columna2 img {
+  width: 100%;
+}
+.grupoarticulos {
+  column-count: 2;
+  float: left;
+  margin-left: 1%;
+  margin-top: 30px;
+  width: 80%;
+}
+
+.articulos {
+  border: 3px solid black;
+  background-color: #37ddc4;
+  border-radius: 10px;
+  padding: 2%;
+  font-size: 20px;
   
+}
+
+p.Explicacion3cosas {
+  font-size: 15px;
+}
+
+footer {
+  background-color: gray;
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  width: 99.6%; /* He puesto width 99.6% porque si no aparece una barra para mover a los laterales */
+
+}
  /* ===============================================================CV============================================================= */
 
 .TablaCV {
@@ -244,16 +298,15 @@ nav {
 .VideoCV {
    position: static;
    right: 20px;
-   padding-left: 3px;
-   
+   padding-left: 10px;
+  
+}
+
+.fondopagina {   /*  He tenido que poner este padding porque si no no te deja scrollear para abajo la página y el footer tapa cosas.*/
+  padding: 16%;
 }
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     } 
 
-p {
-    column-count: 2;
-    text-align: justify;
-    
-}
 
