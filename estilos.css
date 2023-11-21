@@ -333,7 +333,7 @@ footer {
   padding: 10%;
 }
 .fondopagina {   /*  He tenido que poner este padding porque si no no te deja scrollear para abajo la página y el footer tapa cosas.*/
-  padding: 16%;
+  padding: 29%;
 }
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
