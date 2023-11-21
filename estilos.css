@@ -57,7 +57,7 @@ nav {
     background-color:  #333;
     color: white;
     float: left;
-    height: 100vh;  /* No puedo usar un porcentaje porque no funciona correctamente. */ 
+    height: 170vh;  /* No puedo usar un porcentaje porque no funciona correctamente. */ 
     margin-top: 5px;
     width: 15%;
    
@@ -78,7 +78,6 @@ nav {
   }
   
 
-
 .container {
   margin: 0% auto;
   
@@ -88,6 +87,7 @@ section.columnas {
   float: left;
   margin-left: 1%;
   width: 80%;
+  padding-top: 0%;
 }
 
 .columna {
@@ -96,11 +96,12 @@ section.columnas {
     font-size: 20px;
     float: left;
     padding: 1%;
-    margin-top: 1%;
+    margin-top: 0%;
     text-align: center;
     width: 24%;
     background-color: #37dd98;
     margin-left: 0.5%;
+    padding-top: 0%;
   }
   
 .columna2 {
@@ -110,11 +111,11 @@ section.columnas {
   font-size: 20px;
   float: left;
   padding: 2%;
-  margin-top: 1%;
+  margin-top: 0%;
   margin-left: 10px;
   text-align: center;
   width: 20%;
- 
+  padding-top: 0%;
 }
 
 .columna img {
@@ -123,21 +124,47 @@ section.columnas {
 .columna2 img {
   width: 100%;
 }
+
+#sobremiappweb {
+  column-count: 2;
+}
+
+.sobremi {
+  font-size: 40px;
+  padding-bottom: 0%;
+  padding-left: 20px;
+  padding-top: 0px;
+}
+.appweb {
+  padding-top: 25px;
+  padding-bottom: 0px;
+  padding-left: 225px;
+  padding-right: 100px;
+  font-size: xx-large;
+  text-align: center;
+}
+.cosasnodejaria {
+  font-size: xx-large;
+  margin-top: 470px;
+  padding-left: 225px;
+}
 .grupoarticulos {
   column-count: 2;
   float: left;
   margin-left: 1%;
-  margin-top: 30px;
+  margin-top: 10px;
   width: 80%;
+  text-align: center;
 }
 
 .articulos {
   border: 3px solid black;
   background-color: #37ddc4;
   border-radius: 10px;
-  padding: 2%;
   font-size: 20px;
-  
+  float: left;  
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 p.Explicacion3cosas {
@@ -302,6 +329,9 @@ footer {
   
 }
 
+.fondopaginaindice {   /*  He tenido que poner este padding porque si no no te deja scrollear para abajo la página y el footer tapa cosas.*/
+  padding: 10%;
+}
 .fondopagina {   /*  He tenido que poner este padding porque si no no te deja scrollear para abajo la página y el footer tapa cosas.*/
   padding: 16%;
 }
