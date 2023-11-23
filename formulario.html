@@ -7,13 +7,92 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <nav> <!-- "Barra de navegación superior"-->
-        <ul> 
-            <li><a href="index.html">Sobre mí</a></li>
-            <li><a href="CV.html">Currículum</a></li>
-            <li><a href="formulario.html"> Formulario</a> </li>
-            <li><a href="proyecto.html">Sobre el proyecto</a> </li>
-        </ul>
+    <div class="container"> 
+        <header>
+        Mi página: Jorge Pérez Hernando
+        </header>
+        <nav> <!-- "Barra de navegación superior"-->
+          <ul> 
+              <li><a href="index.html">Sobre mí</a></li>
+              <li><a href="CV.html">Currículum</a></li>
+              <li><a href="formulario.html"> Formulario</a> </li>
+              <li><a href="proyecto.html">Sobre el proyecto</a> </li>
+          </ul>
+        </nav> 
+        <div id="nav">
+           
+            <div class="menulateralform">
+                <div class="menu-item">
+                  <a href="index.html">Sobre mí</a>
+                </div>
+                <div class="menu-item">
+                    <a href="CV.html">Currículum</a>
+                </div>
+                <div class="menu-item">
+                    <a href="formulario.html">Formulario</a>
+                </div>
+                <div class="menu-item">
+                    <a href="proyecto.html">Sobre el proyecto</a>
+                </div>
+            </div>
+           
+            
+        </div>
+       </div>
+         
+            
+            <form action="formulario.php" method="get">
+                <p id="prueba123"> Nombre:      <input type="text"     name="nombre" size="40" placeholder="Escriba su nombre" autofocus required>
+                </p>
+                <p>
+                    Año de nacimiento: <input type="Number" name="nacido" min="2005" required>
+                </p>
+                <p>
+                    Sexo:    <label><input type="radio" name="hm" value="h"> Hombre</label>
+                    <label><input type="radio" name="hm" value="m"> Mujer </label>
+                </p>
+                <p>
+                    <label><input type="checkbox" name="ChecboxEdad"> Soy mayor de edad</label> 
+                </p>
+                <p>
+                    Introduzca su nivel de francés:
+                    <p>
+                    A1/A2/B1/B2/C1/C2
+                    </p>
+                    <p>
+                    <input type="range" name="Rango" min="1" max="6" list="nivelfrances">
+                    <datalist id="nivelfrances">
+                        <option value="1" label="A1"></option>
+                        <option value="2" label="A2"></option>
+                        <option value="3" label="B1"></option>
+                        <option value="4" label="B2"></option>
+                        <option value="5" label="C1"></option>
+                        <option value="6" label="C2"></option>
+                    </datalist>
+                </p>
         
+                <p> Selección prueba:
+                    <select name="Prueba seleccionar">
+                        <option>Uno</option>
+                        <option>Dos</option>
+                </p>
+               
+                <p>
+                 
+                    <input type="datetime-local">
+        
+                    </p>
+                    
+                <p>
+                     <button type="submit">
+                        <img src="images/send.png" width="32" height="32" style="vertical-align: middle"> Enviar
+                     </button>
+                    
+                    <input type="reset" value="Resetear">
+                </p>
+            </form>
+    <footer>
+        Página desarrollada por Jorge Pérez Hernando
+    </footer> 
 </body>
 </html>

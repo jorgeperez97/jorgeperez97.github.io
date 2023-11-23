@@ -53,6 +53,8 @@ nav {
     background-color: #111;
   }
   
+/* Menu lateral Indice + Curriculum*/
+
   .menulateral {
     background-color:  #333;
     color: white;
@@ -63,6 +65,7 @@ nav {
    
   }
 
+ 
   .menulateral a {
     color: white;
     padding: 10px;
@@ -76,7 +79,31 @@ nav {
   .menulateral div {   /* Esta parte con "div" hace referencia a los "divs" que tengo dentro del menu lateral. */
     padding: 10px;
   }
+
+/* Menu lateral Form*/
+
+  .menulateralform {
+    background-color:  #333;
+    color: white;
+    float: left;
+    height: 80vh;  
+    margin-top: 5px;
+    width: 15%;
+  }
+
+  .menulateralform a {
+    color: white;
+    padding: 10px;
+    padding-left: 1%;
+  }
+
+  .menulateralform a:hover {
+    background-color: #111;
+  }
   
+  .menulateralform div {  
+    padding: 10px;
+  }
 
 .container {
   margin: 0% auto;
@@ -189,8 +216,8 @@ footer {
     border-collapse: collapse;
     border-top: none;
     border-bottom: none;
-    float:left;
-    padding-left: 3px;
+    margin-left: 16%
+    
 }
 
 .TopeTabla {
@@ -295,7 +322,7 @@ footer {
     padding-bottom: 1%;
     background-color: wheat;
     border: black 3px solid;
-     border-left: none;
+    border-left: none;
     border-collapse: collapse;
     border-top: none;
     border-bottom: none;
@@ -305,7 +332,7 @@ footer {
     padding-top: 0%;
     background-color: wheat;
     border: black 3px solid;
-     border-left: none;
+    border-left: none;
     border-collapse: collapse;
     border-top: none;
     border-bottom: none;
@@ -323,17 +350,19 @@ footer {
     border-bottom: black 3px solid;
 }
 .VideoCV {
-   position: static;
-   right: 20px;
-   padding-left: 10px;
-  
+  position: absolute;
+  margin-left: 55%;
 }
 
 .fondopaginaindice {   /*  He tenido que poner este padding porque si no no te deja scrollear para abajo la página y el footer tapa cosas.*/
   padding: 10%;
 }
 .fondopagina {   /*  He tenido que poner este padding porque si no no te deja scrollear para abajo la página y el footer tapa cosas.*/
-  padding: 29%;
+  padding: 2%;
+}
+
+form {
+  padding-left: 215px;
 }
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
