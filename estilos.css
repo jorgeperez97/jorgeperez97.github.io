@@ -18,6 +18,9 @@
     font-size: 20px;
     color:  white;
  }
+ body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  } 
  /* ============================================== Barra superior ============================================ */
 nav {
   background-color: #333;
@@ -174,6 +177,7 @@ section.columnas {
   font-size: xx-large;
   margin-top: 470px;
   padding-left: 225px;
+  
 }
 .grupoarticulos {
   column-count: 2;
@@ -182,6 +186,7 @@ section.columnas {
   margin-top: 10px;
   width: 80%;
   text-align: center;
+  padding: 0px;
 }
 
 .articulos {
@@ -192,6 +197,7 @@ section.columnas {
   float: left;  
   padding-left: 5px;
   padding-right: 5px;
+  padding: 0px;
 }
 
 p.Explicacion3cosas {
@@ -360,12 +366,11 @@ footer {
 .fondopagina {   /*  He tenido que poner este padding porque si no no te deja scrollear para abajo la página y el footer tapa cosas.*/
   padding: 2%;
 }
-
-form {
-  padding-left: 215px;
+/* ====================================== Formulario =================================== */
+.formulario {
+  column-count: 2;
+  padding-left: 15px;
 }
-body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    } 
+
 
 
