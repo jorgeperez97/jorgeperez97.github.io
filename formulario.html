@@ -41,24 +41,52 @@
        </div>
          
         <div class="formulario">
-            <form>
-                <p> Nombre: <input type="text"     name="nombre" size="40" placeholder="Escriba su nombre" autofocus required>
-                </p>
-                <p>
-                    Contraseña: <input type="password">
-                </p>
-                <p>
-                    Año de nacimiento: <input type="Number" name="nacido" min="1920" required placeholder="Mín. 1920">
-                </p>
-                <p>
-                    Género:    <label><input type="radio" name="hm" value="h"> Hombre</label>
-                    <label><input type="radio" name="hm" value="m"> Mujer </label>
-                    <label><input type="radio" name="hm" value="o"> Otro / Prefiero no decirlo </label>
-                </p>
-                
-                <p>
-                    <label><input type="checkbox" name="ChecboxEdad"> Soy mayor de edad</label> 
-                </p>
+            <div class="Registro">
+                <form>
+                <fieldset class="RegistroField">
+                    <legend> <strong>Datos personales y registro</strong></legend>
+                     <p> Nombre: <input type="text" name="nombre" placeholder="Escriba su nombre" autofocus required>
+                     </p>
+                     <p>
+                        Apellidos: <input type="text" name="apellidos" size="30" placeholder="Escriba sus apellidos">
+                     </p>
+                    <p>
+                        Año de nacimiento: <input type="Number" name="nacido" min="1920" required placeholder="Mín. 1920">
+                    </p>
+                    <p>
+                        Fecha de nacimiento: <input type="date">
+                    </p>
+                    <p>
+                        Número de teléfono: <input type="number" placeholder="Introduce tu número de teléfono">
+                    </p>
+                    <p>
+                        Género:    <label><input type="radio" name="hm" value="h"> Hombre</label>
+                        <label><input type="radio" name="hm" value="m"> Mujer </label>
+                        <label><input type="radio" name="hm" value="o"> Otro / Prefiero no decirlo </label>
+                    </p>
+                    <p>
+                        <label><input type="checkbox" name="ChecboxEdad"> Soy mayor de edad</label> 
+                    </p>
+
+                    <p>
+                        Usuario: <input type="text">
+                    </p>
+                    <p>
+                        Contraseña: <input type="password">
+                    </p>
+                    <p> Selecciona tu clase:
+                        <select>
+                            <option></option>
+                            <option>SMR2A</option>
+                            <option>SMR2B</option>
+                            <option>SMR2C</option>
+                        </select>
+                    </p>
+            </fieldset>
+        </div>
+        <div class="misc"> 
+            <fieldset class="miscfield">
+                <legend><strong>Misceláneo</strong></legend>
                 <p>
                     Introduzca su nivel de francés:
                     <p>
@@ -75,31 +103,37 @@
                         <option value="6" label="C2"></option>
                     </datalist>
                 </p>
-        
-                <p> Selecciona tu clase:
-                    <select>
-                        <option></option>
-                        <option>SMR2A</option>
-                        <option>SMR2B</option>
-                        <option>SMR2C</option>
-                    </select>
+                <p>
+                    Introduce un comentario: <input type="text">
                 </p>
+                <p>
+                    Selecciona tu color de reconocimiento: <input name="colorform" type="color">
+                </p>
+                <p>
+                    Selecciona una hora de actualización: <input name="horaact" type="time">
+                </p>
+
+               
                
                 <p>                 
                     <input type="datetime-local">
                 </p>
-                <p>
-                     <button type="submit">
-                        <img src="images/send.png" width="32" height="32" style="vertical-align: middle"> Enviar
-                     </button>
-                     <input type="reset" value="Resetear">
-                </p>
+               
                 <p>
                     <strong>Adjuntar fichero:</strong>  <input type="file">
                 </p>
-                
+            </fieldset>
+            <p>
+                <button type="submit">
+                   <img src="images/send.png" width="32" height="32" style="vertical-align: middle"> Enviar
+                </button>
+                <input type="reset" value="Resetear">
+           </p>
             </form>
+            
         </div>
+        </div>
+        <p class="Ultimafila"> </p>
     <footer>
         Página desarrollada por Jorge Pérez Hernando
     </footer> 

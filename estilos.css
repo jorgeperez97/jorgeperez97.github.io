@@ -368,9 +368,23 @@ footer {
 }
 /* ====================================== Formulario =================================== */
 .formulario {
-  column-count: 2;
+
+  padding-left: 225px;
+}
+fieldset {
+  border: black 3px solid;
   padding-left: 15px;
+  font-size: large;
+  column-count: 2;
+  border-radius: 10px;
+ 
 }
 
+.Registro {
+ padding-top: 15px;
+}
+.misc {
+  padding-top: 15px;
+}
 
 
