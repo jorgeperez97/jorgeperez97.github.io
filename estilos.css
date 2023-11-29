@@ -89,7 +89,7 @@ nav {
     background-color:  #333;
     color: white;
     float: left;
-    height: 80vh;  
+    height: 100vh;  
     margin-top: 5px;
     width: 15%;
   }
@@ -377,7 +377,7 @@ fieldset {
   font-size: large;
   column-count: 2;
   border-radius: 10px;
- 
+  background-color: #37ddc4;
 }
 
 .Registro {
