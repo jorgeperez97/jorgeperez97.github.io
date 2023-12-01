@@ -90,10 +90,10 @@
                 <p>
                     Introduzca su nivel de francés:
                     <p>
-                    A1/A2/B1/B2/C1/C2
+                    A1/A2/B1 - B2/C1/C2
                     </p>
                     <p>
-                    <input type="range" name="Rango" min="1" max="6" list="nivelfrances">
+                    <input type="range" name="RangoFrances" min="1" max="6" list="nivelfrances">
                     <datalist>
                         <option value="1" label="A1"></option>
                         <option value="2" label="A2"></option>
@@ -104,20 +104,25 @@
                     </datalist>
                 </p>
                 <p>
-                    Introduce un comentario: <input type="text">
-                </p>
-                <p>
                     Selecciona tu color de reconocimiento: <input name="colorform" type="color">
                 </p>
                 <p>
-                    Selecciona una hora de actualización: <input name="horaact" type="time">
+                    Selecciona una hora de reunión: <input name="horaact" type="time">
                 </p>
 
                
                
                 <p>                 
-                    <input type="datetime-local">
+                    Selecciona el día y hora de entrevista telefónica: <input name="fecha" type="datetime-local">
                 </p>
+                <p>
+                    Introduce un comentario: 
+                </p>
+                <p>
+                    <textarea name="comentario" type="text" cols="70" rows="5"></textarea>
+                </p>
+               
+               
                
                 <p>
                     <strong>Adjuntar fichero:</strong>  <input type="file">
@@ -133,7 +138,6 @@
             
         </div>
         </div>
-        <p class="Ultimafila"> </p>
     <footer>
         Página desarrollada por Jorge Pérez Hernando
     </footer> 

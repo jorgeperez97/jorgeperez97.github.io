@@ -31,7 +31,8 @@ nav {
     display: inline-block;
     padding: 10px;
     width: 15%;
-    }    
+    }
+  
 
   ul {
     list-style-type: none;
@@ -50,6 +51,7 @@ nav {
     color: white;
     text-align: center;
     padding: 14px;
+
   }
   
   li a:hover {
@@ -62,7 +64,7 @@ nav {
     background-color:  #333;
     color: white;
     float: left;
-    height: 170vh;  /* No puedo usar un porcentaje porque no funciona correctamente. */ 
+    height: 110vh;  /* No puedo usar un porcentaje porque no funciona correctamente. */ 
     margin-top: 5px;
     width: 15%;
    
@@ -89,7 +91,7 @@ nav {
     background-color:  #333;
     color: white;
     float: left;
-    height: 100vh;  
+    height: 80vh;  
     margin-top: 5px;
     width: 15%;
   }
@@ -132,6 +134,7 @@ section.columnas {
     background-color: #37dd98;
     margin-left: 0.5%;
     padding-top: 0%;
+    
   }
   
 .columna2 {
@@ -157,6 +160,7 @@ section.columnas {
 
 #sobremiappweb {
   column-count: 2;
+  
 }
 
 .sobremi {
@@ -164,14 +168,14 @@ section.columnas {
   padding-bottom: 0%;
   padding-left: 20px;
   padding-top: 0px;
+  
 }
 .appweb {
-  padding-top: 25px;
-  padding-bottom: 0px;
-  padding-left: 225px;
-  padding-right: 100px;
+  
   font-size: xx-large;
   text-align: center;
+  margin-right: 11%;
+  float: right;
 }
 .cosasnodejaria {
   font-size: xx-large;
@@ -193,8 +197,7 @@ section.columnas {
   border: 3px solid black;
   background-color: #37ddc4;
   border-radius: 10px;
-  font-size: 20px;
-  float: left;  
+  font-size: 20px;  
   padding-left: 5px;
   padding-right: 5px;
   padding: 0px;
@@ -378,7 +381,9 @@ fieldset {
   column-count: 2;
   border-radius: 10px;
   background-color: #37ddc4;
+  margin-left: 80px;
 }
+
 
 .Registro {
  padding-top: 15px;
