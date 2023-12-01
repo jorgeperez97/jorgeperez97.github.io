@@ -1,8 +1,8 @@
-* {                                     /* No lo entiendo */
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  
+* {          /* Sirve para que los márgenes sean iguales en todos los ordenadores. */
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
  body {
   background-color: #85dcb8;
     
@@ -64,10 +64,9 @@ nav {
     background-color:  #333;
     color: white;
     float: left;
-    height: 110vh;  /* No puedo usar un porcentaje porque no funciona correctamente. */ 
+    height: 160vh;  /* No puedo usar un porcentaje porque no funciona correctamente. */ 
     margin-top: 5px;
     width: 15%;
-   
   }
 
  
@@ -85,31 +84,8 @@ nav {
     padding: 10px;
   }
 
-/* Menu lateral Form*/
-
-  .menulateralform {
-    background-color:  #333;
-    color: white;
-    float: left;
-    height: 80vh;  
-    margin-top: 5px;
-    width: 15%;
-  }
-
-  .menulateralform a {
-    color: white;
-    padding: 10px;
-    padding-left: 1%;
-  }
-
-  .menulateralform a:hover {
-    background-color: #111;
-  }
-  
-  .menulateralform div {  
-    padding: 10px;
-  }
-
+ /* Resto página índice*/
+   
 .container {
   margin: 0% auto;
   
@@ -370,9 +346,35 @@ footer {
   padding: 2%;
 }
 /* ====================================== Formulario =================================== */
+
+/* Menu lateral Form*/
+
+.menulateralform {
+  background-color:  #333;
+  color: white;
+  float: left;
+  height: 100vh;  
+  margin-top: 5px;
+  width: 15%;
+}
+
+.menulateralform a {
+  color: white;
+  padding: 10px;
+  padding-left: 1%;
+}
+
+.menulateralform a:hover {
+  background-color: #111;
+}
+
+.menulateralform div {  
+  padding: 10px;
+}
+
 .formulario {
 
-  padding-left: 225px;
+  padding-left: 215px;
 }
 fieldset {
   border: black 3px solid;
@@ -381,7 +383,6 @@ fieldset {
   column-count: 2;
   border-radius: 10px;
   background-color: #37ddc4;
-  margin-left: 80px;
 }
 
 
@@ -392,4 +393,77 @@ fieldset {
   padding-top: 15px;
 }
 
+/* ===================================== Sobre el proyecto =======================================*/
 
+.menulateralproy {
+  background-color:  #333;
+  color: white;
+  float: left;
+  height: 200vh;  
+  margin-top: 5px;
+  width: 15%;
+}
+
+.menulateralproy a {
+  color: white;
+  padding: 10px;
+  padding-left: 1%;
+}
+
+.menulateralproy a:hover {
+  background-color: #111;
+}
+
+.menulateralproy div {  
+  padding: 10px;
+}
+
+.headerproy {
+  background-color: #37ddc4;
+  margin-top: 10px;
+  margin-left: 210px;
+  margin-right: 70%;
+  border: black 3px solid;
+  border-radius: 10px;
+}
+.headerproy {
+  background-color: #37ddc4;
+  margin-top: 10px;
+  margin-left: 210px;
+  margin-right: 70%;
+  border: black 3px solid;
+  border-radius: 10px;
+}
+
+.headerproydoc {
+  background-color: #37ddc4;
+  margin-top: 10px;
+  margin-left: 210px;
+  margin-right: 40%;
+  border: black 3px solid;
+  border-radius: 10px;
+}
+.headerproyvideo {
+  background-color: #37ddc4;
+  margin-top: 10px;
+  margin-left: 210px;
+  margin-right: 55%;
+  border: black 3px solid;
+  border-radius: 10px;
+}
+.headerlayout {
+  margin-left: 10%;
+}
+
+.fotolayout {
+  margin-left: 210px;
+  margin-right: 10%;
+}
+
+.LinkProy  {
+  margin-left: 210px;
+}
+
+.VideoProy {
+  margin-left: 10px;
+}
