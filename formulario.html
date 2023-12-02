@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+    <!-- Jorge Pérez Hernando 2ºSMRC-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,10 +40,10 @@
             
         </div>
        </div>
-         
+       <form action="resultado.html"> 
         <div class="formulario">
             <div class="Registro">
-                <form action="resultado.html">
+                
                 <fieldset class="RegistroField">
                     <legend> <strong>Datos personales y registro</strong></legend>
                      <p> Nombre: <input type="text" name="nombre" placeholder="Escriba su nombre" autofocus required>
@@ -76,13 +77,14 @@
                     </p>
                     <p> Selecciona tu clase:
                         <select>
-                            <option></option>
+                            <option> ---</option>
                             <option>SMR2A</option>
                             <option>SMR2B</option>
                             <option>SMR2C</option>
                         </select>
                     </p>
             </fieldset>
+        
         </div>
         <div class="misc"> 
             <fieldset class="miscfield">
@@ -93,7 +95,7 @@
                     A1/A2/B1 - B2/C1/C2
                     </p>
                     <p>
-                    <input type="range" name="RangoFrances" min="1" max="6" list="nivelfrances">
+                    <input type="range" name="RangoFrances" min="1" max="6">
                     <datalist>
                         <option value="1" label="A1"></option>
                         <option value="2" label="A2"></option>
@@ -119,7 +121,7 @@
                     Introduce un comentario: 
                 </p>
                 <p>
-                    <textarea name="comentario" type="text" cols="70" rows="5"></textarea>
+                    <textarea name="comentario" cols="70" rows="5"></textarea>
                 </p>
                
                
@@ -130,14 +132,14 @@
             </fieldset>
             <p>
                 <button type="submit">
-                   <img src="images/send.png" width="32" height="32" style="vertical-align: middle"> Enviar
+                   <img src="images/send.png" width="32" height="32" style="vertical-align: middle" alt="Enviar" > Enviar
                 </button>
                 <input type="reset" value="Resetear">
            </p>
-            </form>
-            
+        
         </div>
         </div>
+    </form>
     <footer>
         Página desarrollada por Jorge Pérez Hernando
     </footer> 

@@ -91,7 +91,7 @@ nav {
   
 }
 
-section.columnas {
+div.columnas {
   float: left;
   margin-left: 1%;
   width: 80%;
@@ -201,8 +201,9 @@ footer {
     border-collapse: collapse;
     border-top: none;
     border-bottom: none;
-    margin-left: 16%
-    
+    margin-left: 16%;
+    width: 50%;
+    position: absolute;
 }
 
 .TopeTabla {
@@ -213,35 +214,45 @@ footer {
     padding-bottom: 0%;
     padding-top: 1%;
     border-top: black 3px solid;
+    text-align: center;
+    
     
 }
 .NombreCV {
     font-size: xx-large;
     padding: 0%;
-    
+    text-align: center;
 }
 
 
 .Celda3Tabla1 {
     padding-top: 0%;
     font-size: larger;
+    text-align: center;
 
+}
+.CeldaNormalTabla1 {
+  text-align: center;
 }
 .CeldaContacto {
     padding: 0%;
+    text-align: center;
 }
 .CeldaContactoIconos {
     padding-top:  1%;
+    text-align: center;
 }
 .CeldaNegrita {
     font-size: large;
 }
 .CeldaIdiomas {
     padding-bottom: 3%;
+    text-align: center;
 }
 .CeldaMarcas {
     padding-top: 0%;
     padding-bottom: 3%;
+    text-align: center;
 }
 
 .Subtitulo {
@@ -253,6 +264,7 @@ footer {
     border-bottom: none;
     border-left: none;
     padding-left: 1%;
+    width: 60%;
 }
 .TextoNombreEmpresa {
     
@@ -335,8 +347,12 @@ footer {
     border-bottom: black 3px solid;
 }
 .VideoCV {
-  position: absolute;
-  margin-left: 55%;
+  position: relative;
+  float: right;
+  margin-right: 5%;
+  width: 392px ;
+  height: 220px;
+  
 }
 
 .fondopaginaindice {   /*  He tenido que poner este padding porque si no no te deja scrollear para abajo la página y el footer tapa cosas.*/
